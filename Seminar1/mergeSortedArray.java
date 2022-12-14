@@ -1,7 +1,3 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.TooManyListenersException;
-
 // Вам даны два массива целых nums1 чисел и nums2, отсортированные в порядке неубывания, 
 // и два целых m числа и n, представляющие количество элементов в nums1 и nums2 соответственно.
 // Объединить nums1 и nums2 в единый массив, отсортированный в порядке неубывания.
@@ -14,6 +10,8 @@ import java.util.TooManyListenersException;
 // Вывод: [1,2,2,3,5,6]
 // Объяснение: объединяемые массивы - это [1,2,3] и [2,5,6].
 // Результатом слияния является [1,2,2,3,5,6] с подчеркнутыми элементами, исходящими из nums1.
+
+import java.util.Arrays;
 
 public class mergeSortedArray {
     public static void main(String[] args) {
