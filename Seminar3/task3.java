@@ -5,7 +5,6 @@ package Seminar3;
 
 import java.util.*;
 
-
 public class task3 {
     public static void main(String[] args) {
         ArrayList<Integer> someList = new ArrayList<>();
@@ -16,7 +15,7 @@ public class task3 {
         someList.add(4);
         someList.add(9);
         ArrayList<Integer> evenList = new ArrayList<>();
-        
+
         for (Integer integer : someList) {
             if (integer % 2 == 0) {
                 evenList.add(integer);
