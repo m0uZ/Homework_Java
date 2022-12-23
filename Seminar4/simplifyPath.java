@@ -19,6 +19,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 public class simplifyPath {
+    
     public String simplifyPath(String path) {
         
         Deque<String> deq = new LinkedList<>();
